@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BlueRidge.ai Face Detection - BlueRidge AI</title>
+  <meta property="og:title" content="BlueRidge.ai Face Detection - BlueRidge AI">
+  <meta name="description" content="Detect product defects in milliseconds. Integrated with your PLC, historian, we can provide a real-time quality solution that solves your problem. Models that learn means the solution can evolve as your needs evolve.">
+  <meta property="og:description" content="Demo of AI being ran realtime in the browser.">
+  <meta property="og:url" content="https://blueridgeai.com/">
+  <meta property="og:site_name" content="BlueRidge AI">
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" href="favicon.png" sizes="192x192" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <img src="bluai_logo_white-1.svg" style="width:160px; height: 70px">
+    </div>
+  </nav>
+  <div class="main">
+    <div id="br-spinner">
+      <div class="spinner-grow text-light" role="status">
+      </div>
+    </div>
+    <video id="video" width="720" height="560" autoplay muted></video>
+    <canvas id="overlay" />
+  </div>
+</body>
+</html>
